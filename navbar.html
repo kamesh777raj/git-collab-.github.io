@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        #container{
+            border:0px solid red;
+            display:flex;
+            gap:30px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(38, 38, 67);
+            padding:20px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+        #container>div{
+          border:0px solid rgb(35, 35, 65); 
+          color: white;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+        #container>div:nth-child(2){
+            margin:auto 80px auto auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>Reebok</div>
+        <div>Men</div>
+        <div>Women</div>
+        <div>Login</div>
+        <div>Signup</div>
+    </div>
+</body>
+</html>
